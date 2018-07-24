@@ -6,10 +6,10 @@ A method for KWS, consisted of three steps:
 2) Feature extraction (projections of Oriented Gradients - POG) over image zones
 3) Matching sequences of descriptors with dynamic programming
  
-*bold*Implementation Highlights:
+**bold**Implementation Highlights:
 * Implemented using Matlab 2015a (possible compatibility issues for other versions).
 * Feature extraction is using multiple threads (Matlab's parfor). 
-* The matching algorithm is implemented in C (inner_valid_seq_multi.c) and was compiled via mex for Linux arch64. For different architecture re-compile the mathing algorithm (<addr> mex inner_valid_seq_multi.c)
+* The matching algorithm is implemented in C (inner_valid_seq_multi.c) and was compiled via mex for Linux arch64. For different architecture re-compile the mathing algorithm (<tt> mex inner_valid_seq_multi.c <\tt>)
 * The dataloaders for both the datasets of ICFHR 2014 Keyword Spotting Competition are provided (Bentham14 & Modern14).
 * 3 methods are supported:
 	1. 'Global' : simple holistic POG descriptor
