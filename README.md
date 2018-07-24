@@ -8,4 +8,4 @@ A method for KWS, consisted of three steps:
  
 
 * Implemented using Matlab 2015a! (possible compatibility problems for other versions)
-* The matching algorithm is implemented in C (inner_valid_seq_multi.c) and was compiled via mex for Linux arch64. For different architecture re-compile the mathing code (`<addr>` mex inner_valid_seq_multi.c)
+* The matching algorithm is implemented in C (inner_valid_seq_multi.c) and was compiled via mex for Linux arch64. For different architecture re-compile the mathing code (<addr> mex inner_valid_seq_multi.c)
